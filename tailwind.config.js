@@ -1,17 +1,19 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: [
-    './src/**/*.tsx',
-  ],
+  content: ['./src/**/*.tsx'],
   theme: {
     extend: {
-      maxWidth: {
-        app: '700px'
+      gridTemplateColumns: {
+        app: 'minmax(18rem, 20rem) 1fr',
       },
-      
+
+      maxWidth: {
+        app: '700px',
+      },
+
       colors: {
-        rocket: '#8257e6'
-      }
+        rocket: '#8257e6',
+      },
     },
   },
   plugins: [],
