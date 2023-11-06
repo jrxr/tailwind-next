@@ -58,7 +58,7 @@ export default function Home() {
                 </label>
 
                 <Input.Root>
-                  <Input.Control id="lastName" defaultValue="Fernandes" />
+                  <Input.Control id="lastName" defaultValue="Martins" />
                 </Input.Root>
               </div>
             </div>
